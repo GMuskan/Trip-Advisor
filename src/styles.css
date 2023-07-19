@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.continents-row {
+  display: flex;
+}
+
+.continent-card {
+  width: 50%;
+  /* height: fit-content; */
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continent-card img {
+  width: 100%;
+  height: 70%;
+
+  border-radius: 5px 5px 0 0;
+}
+
+.continent-name {
+  display: flex;
+  margin: 1rem;
+}
+
+.continent-name i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.destination-details {
+  display: flex;
+}
+
+.destination-details img {
+  width: 95%;
+  height: 88%;
+  margin: 1rem;
+}
+
+.about-destination {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.about-destination span {
+  color: blue;
+}
+
+.about-destination .website-link {
+  color: pink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+}
+
+.back-button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
